@@ -1,6 +1,10 @@
-import { fileIcon, ai, download } from "../assets";
+import { fileIcon, ai, download, colorPicker } from "../assets";
 
 export const EditorTabs = [
+  {
+    name: "colorpicker",
+    icon: colorPicker,
+  },
   {
     name: "filepicker",
     icon: fileIcon,
@@ -8,10 +12,6 @@ export const EditorTabs = [
   {
     name: "aipicker",
     icon: ai,
-  },
-  {
-    name: "aipicker",
-    icon: download,
   },
 ];
 
